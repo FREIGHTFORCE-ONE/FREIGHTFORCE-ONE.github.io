@@ -1,0 +1,39 @@
+html * {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 25px;
+}
+
+.divider {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.form {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
