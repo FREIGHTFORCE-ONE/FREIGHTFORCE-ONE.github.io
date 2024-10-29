@@ -1,15 +1,22 @@
+@font-face {
+  font-family: "Typerwiter"
+  src: url('fonts/typewriter-font.ftt') format('truetype');
+}
+
 html * {
-  font-family: "Roboto";
+  font-family: "Typewriter";
 }
 
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
